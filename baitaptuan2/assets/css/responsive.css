@@ -1,0 +1,93 @@
+/*Pc*/
+@media (min-width: 1024px){
+    .pad-1{
+        margin-top: 55px;
+        margin-left: 55px;
+    }
+    .header-title{
+        padding-left: 75px;
+    }
+    .content-2 > p{
+        padding-left: 75px;
+    }
+    .border-white{
+        margin-left: 75px;
+    }
+}
+/* Mobile*/
+@media (max-width: 576px){
+    .nav > li{
+        display: block;
+    }
+    .bi-search {
+        display: none;
+    }
+    .bi-person {
+        display: none;
+    }
+    .form-1{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .icon-1{
+        display: none;
+    }
+    .end-1{
+        height: 1140px;
+    }
+    .logo-1{
+        margin-left: 20px;
+    }
+    .logo-2{
+        width: 100px;
+    }
+    .content{
+        background-image: url('/baitaptuan2/assets/images/Group\ 18.png');
+        height: 800px;
+    }
+    
+    .content-2{
+        margin-top: 37px;
+        padding: 0 37px;
+    }
+    .header-title{
+        padding-left: 0px;
+    }
+    .header-title span{
+        display: block;
+    }
+    .title-1 span{
+        display: block;
+    }
+    .content-2 > p{
+        /* padding-right: 150px; */
+        line-height: 130%;
+    }
+    .border-white{
+        display: none;
+    }
+    .mobile-1{
+        display: none;
+    }
+}
+/* tablet*/
+@media (max-width: 768px){
+    .logo-1{
+        margin-left: 30px;
+    }
+    .header-title{
+        padding-left: 20px;
+    }
+    .content-2 > p{
+        padding-left: 20px;
+    }
+    .border-white{
+        margin-left: 30px;
+    }
+    .end-1{
+        height: 550px;
+    }
+    .icon-1{
+        display: none;
+    }
+}
